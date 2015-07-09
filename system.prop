@@ -5,3 +5,4 @@ rild.libargs=-d /dev/smd0
 
 # Device ID
 ro.product.device=falcon
+ro.product.model=falcon
