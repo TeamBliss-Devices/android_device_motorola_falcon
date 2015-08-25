@@ -1,11 +1,9 @@
-#Bliss Audio Mod
-BLISS_AUDIO_MOD := viper
+$(call inherit-product, device/motorola/falcon/full_falcon.mk)
 
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-$(call inherit-product, device/motorola/falcon/full_falcon.mk)
-
-
 PRODUCT_RELEASE_NAME := MOTO G
 PRODUCT_NAME := bliss_falcon
+
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
